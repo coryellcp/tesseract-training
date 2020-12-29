@@ -1,0 +1,1 @@
+combine_tessdata -e traineddata/eng.traineddata eng.lstm

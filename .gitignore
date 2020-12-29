@@ -1,0 +1,4 @@
+train/*
+fonts/*
+eng.lstm
+langdata_lstm/
