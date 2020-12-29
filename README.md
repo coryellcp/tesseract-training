@@ -9,6 +9,8 @@
 
 
 - git clone https://github.com/tesseract-ocr/langdata_lstm.git from root directory
+- git clone https://github.com/tesseract-ocr/tesseract.git from root directory
+- curl https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.traineddata --output tesseract/tessdata/eng.traineddata
 - Download a .ttf file and place it in the /fonts directory
 
 
