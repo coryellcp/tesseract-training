@@ -1,1 +1,1 @@
-combine_tessdata -e traineddata/eng.traineddata eng.lstm
+combine_tessdata -e tesseract/tessdata/eng.traineddata eng.lstm
