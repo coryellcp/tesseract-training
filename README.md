@@ -7,6 +7,8 @@
 
 ## Basic Usage
 
+
+- git clone https://github.com/tesseract-ocr/langdata_lstm.git from root directory
 - Download a .ttf file and place it in the /fonts directory
 
 
