@@ -1,5 +1,7 @@
 train/*
-fonts/*
 eng.lstm
 langdata_lstm/
 tesseract/
+fonts/*
+output/*
+.DS_Store
