@@ -2,6 +2,8 @@
   "cSpell.words": [
     "finetune",
     "lstm",
-    "tesseract"
+    "tessdata",
+    "tesseract",
+    "traineddata"
   ]
 }
