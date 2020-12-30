@@ -15,8 +15,6 @@ git clone https://github.com/tesseract-ocr/tesseract.git
 
 wget https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.traineddata -O tesseract/tessdata/eng.traineddata
 
-- Download a font in file format .ttf and place it in the /fonts directory
-
 ### Generate Training Data
 
 - generate_training_data.sh generates training data and the needed files to train Tesseract in the /train directory
@@ -26,6 +24,7 @@ wget https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.traineddata -
 - check generate_training_data.sh file to make sure options are correct
     - Of note, be sure to change line 4, font_list, to match your font
 ------------------------------------------
+- Download a font in file format .ttf and place it in the /fonts directory
 
 run ./generate_training_data.sh 
 
