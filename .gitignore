@@ -5,3 +5,6 @@ tesseract/
 fonts/*
 output/*
 .DS_Store
+
+#files to keep
+!fonts/.gitkeep

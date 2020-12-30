@@ -1,25 +1,34 @@
-# General Thoughts at a glance
-
+# Overview
 - generate test data
 - extract eng.lstm file
 - execute learning
 - finetune (2k)
 
 ## Basic Usage
+- From the project's root directory run
 
+git clone https://github.com/tesseract-ocr/langdata_lstm.git 
 
-- git clone https://github.com/tesseract-ocr/langdata_lstm.git from root directory
-- git clone https://github.com/tesseract-ocr/tesseract.git from root directory
-- wget https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.traineddata -O tesseract/tessdata/eng.traineddata
-- Download a .ttf file and place it in the /fonts directory
+git clone https://github.com/tesseract-ocr/tesseract.git
+
+- If you do not have wget.
+
+brew install wget
+
+- From the project's root directory
+wget https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.traineddata -O tesseract/tessdata/eng.traineddata
+
+- Download a font in file format .ttf and place it in the /fonts directory
 
 
 ## Scripts
 
 ### generate_training_data.sh
 - generates training data for tesseract in the /train directory
+
 - check generate_training_data.sh file to make sure options are correct
     - Of note, be sure to change line 4, font_list, to match your font
+    
 - run ./generate_training_data.sh. This will generate pages of data and the needed files
 to train tesseract.
 
