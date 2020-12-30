@@ -7,4 +7,4 @@ output/*
 .DS_Store
 
 #files to keep
-!fonts/.gitkeep
+!fonts/*.gitkeep
