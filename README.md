@@ -1,4 +1,5 @@
 # Overview
+- Note: This was all done on a mac in VSCode
 - generate test data
 - extract eng.lstm file
 - execute learning
@@ -21,9 +22,11 @@ wget https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.traineddata -
 - extract_lstm.sh creates the *.lstm file needed by Tesseract.
 
 - check generate_training_data.sh file to make sure options are correct
-    - Of note, be sure to change line 4, font_list, to match your font
 ------------------------------------------
-- Download a font in file format .ttf and place it in the /fonts directory
+
+- Download a font in file format .ttf and place it in the fonts folder 
+
+- In generate_training_data.sh change font name in font_list, to match your font
 
 run ./generate_training_data.sh 
 
